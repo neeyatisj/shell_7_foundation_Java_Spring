@@ -3,7 +3,7 @@ name: Azure Web App Container Deployment
 on:
   push:
     branches:
-      - master  # Change this to your default branch
+      - neeyati  # Change this to your default branch
 
 jobs:
   build-and-deploy:
