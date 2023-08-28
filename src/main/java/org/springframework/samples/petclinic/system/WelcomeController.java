@@ -27,4 +27,9 @@ class WelcomeController {
 		return "welcome";
 	}
 
+	@GetMapping("/automate_build_integrate")
+	public String welcome() {
+		return "automate_build_done";
+	}
+
 }
