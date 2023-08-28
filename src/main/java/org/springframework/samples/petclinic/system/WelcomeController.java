@@ -27,4 +27,9 @@ class WelcomeController {
 		return "welcome";
 	}
 
+	@GetMapping("/streamline_setup")
+	public String welcome() {
+		return "Streamline setup done";
+	}
+
 }
